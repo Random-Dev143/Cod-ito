@@ -1,26 +1,36 @@
-/*ESTILOS DE HEADER - SOLO NICO*/
+body{
+    font-family: Poppins;    
+    src: url(https://fonts.google.com/specimen/Poppins);
+    background-color: #67AC5B;
+}
 
+p{
+    color: #353535;
+    text-align: center;
+    font-size: 30px;
 
-/*ESTILO FOOTER - SOLO NICO*/
+}
 
-/*/////////////////////////////////////////////////////////////////////////////////////////////*/
+@font-face {
 
-/*ESTILO INDEX - SOLO MATIAS*/
+    font-family: Poppins;
+    
+    src: url(https://fonts.google.com/specimen/Poppins);
+    
+    }
 
-
-/*ESTILO PROPUESTA TURISTICA - SOLO MATIAS*/
-
-
-/*////////////////////////////////////////////////////////////////////////////////////////////*/
-
-/*ESTILOS RESERVAS - SOLO FACUNDO*/
-
-
-
-/*////////////////////////////////////////////////////////////////////////////////////////////*/
-
-/*ESTILOS CONTACTENOS - SOLO MARTÍN*/
-
-
-
-
+.slider-container {
+    display: flex;
+    width: 80%;
+    height: 75vh;
+    overflow-x: scroll   
+    
+    }
+      
+    .slider-container img {        
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: fill;      
+   
+    scroll-snap-align: center;
+    }
