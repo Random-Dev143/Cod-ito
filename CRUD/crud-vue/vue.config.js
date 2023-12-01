@@ -2,7 +2,7 @@ const path = require('path');
 const { defineConfig } = require('@vue/cli-service');
 
 module.exports = defineConfig({
-  publicPath: 'Cod-ito/CRUD/crud-vue/',
+  publicPath: 'https://random-dev143.github.io/Cod-ito/CRUD/crud-vue/',
   transpileDependencies: true,
   configureWebpack: {
     resolve: {
