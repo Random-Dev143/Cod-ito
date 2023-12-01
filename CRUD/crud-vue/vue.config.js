@@ -2,7 +2,9 @@ const path = require('path');
 const { defineConfig } = require('@vue/cli-service');
 
 module.exports = defineConfig({
-  publicPath: '/crud-vue',
+  publicPath: process.env-NODE_ENV === 'production'
+  ? '/crud-vue/'
+  :'/',
   transpileDependencies: true,
   configureWebpack: {
     resolve: {
