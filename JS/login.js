@@ -2,8 +2,8 @@ document.getElementById("login.html").addEventListener("DOMContentLoaded", funct
     event.preventDefault();
   
     // Obtiene los valores de usuario y contraseña
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
+    var username = document.getElementById("staticEmail").value;
+    var password = document.getElementById("inputPassword").value;
   
     // Validación de usuario y contraseña (luego re-direcciona o da mensaje de error)
     if (username === "admin" && password === "admin") {
