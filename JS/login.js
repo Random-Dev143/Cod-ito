@@ -9,9 +9,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     if ((username === "admin" && password === "admin") ||
         (username === "Facundo.rua90@gmail.com" && password === "123") ||
         (username === "martin.reinoso99@gmail.com" && password === "0000")) {
-        window.location.href = "PAGINA_CORRECTA";
+        window.location.href = "https://cod-ito-crud.netlify.app/";
 }   else {
         alert("Usuario o contraseña inválidos, vuelve a ingresar correctamente");
 }
   });
-  
