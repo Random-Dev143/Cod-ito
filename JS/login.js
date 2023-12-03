@@ -1,4 +1,4 @@
-document.getElementById("login.html").addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("DOMContentLoaded", function(event) {
     event.preventDefault();
   
     // Obtiene los valores de usuario y contraseña
@@ -6,10 +6,12 @@ document.getElementById("login.html").addEventListener("DOMContentLoaded", funct
     var password = document.getElementById("inputPassword").value;
   
     // Validación de usuario y contraseña (luego re-direcciona o da mensaje de error)
-    if (username === "admin" && password === "admin") {
-      window.location.href = "FACU, LA PAGINA PARA REDIRECCIONAR VA ACA";
-    } else {
-      alert("Usuario o contraseña inválido, volver a ingresar correctamente");
-    }
+    if ((username === "admin" && password === "admin") ||
+    (username === "Facundo.rua90@gmail.com" && password === "123") ||
+    (username === "martin.reinoso99@gmail.com" && password === "0000")) {
+    window.location.href = "PAGINA_CORRECTA_1";
+} else {
+    alert("Usuario o contraseña inválidos, vuelve a ingresar correctamente");
+}
   });
   
