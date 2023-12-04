@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const response = await fetch("https://facundorua.pythonanywhere.com/registros", {
                 method: "POST",
                 headers: {
-                    // No es necesario establecer Content-Type para FormData
+                    
                 },
                 body: datos,
             });

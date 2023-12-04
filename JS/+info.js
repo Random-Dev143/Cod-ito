@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let intervalo = null;
   let step = 1;
   let scrolling = false;
-  let direction = 1; // direc: 1 para adelante, -1 para atrás
+  let direction = 1; 
 
   const start = () => {
     if (intervalo === null) {

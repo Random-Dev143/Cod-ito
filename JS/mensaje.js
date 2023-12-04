@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         
         if (correo.value == "") {
             alert("Ingrese su correo");
-            correo.focus(); // Cambiado de 'email' a 'correo'
+            correo.focus(); 
             return false;
         }
         if (!emailValido(correo.value)) {
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (mensaje.value == "" || mensaje.value.length == 0) {
             alert("Ingrese su mensaje");
-            mensaje.focus(); // Cambiado de 'nombre' a 'mensaje'
+            mensaje.focus(); 
             return false;
         }
         
