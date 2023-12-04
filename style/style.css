@@ -701,33 +701,3 @@ overflow: hidden;
         font-size: 12px;
         margin: 0px;
     }
-
-
-   
-
-    
-    
-/*//////////////////////////////////////////////////////////contactos?///////////////////////////////////////////////////////////*/
-
-/*}
-@media screen and (max-width: 320px) and (max-height: 480px){
-    header .logo{
-        display: none;
-    }
-    .carouselgrande img {
-        max-height: 431px;
-    }
-    footer{
-        background-color:#353535 ;
-        margin-top: auto;
-        display: flex ;
-        flex-direction: column;
-        height: 160px;
-    }
-    .caja1 img{
-        display: none ;
-    }
-    .caja2 {
-        display: none;
-    }
-}
